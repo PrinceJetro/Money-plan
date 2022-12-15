@@ -1,0 +1,84 @@
+.card{
+    display:inline-block ;
+    width: 200px;
+    text-align: center;
+    
+    
+}
+
+.main{
+    margin-top: 15%;
+    margin-left: 25%;
+   
+    
+}
+button{
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+#first button:hover{
+    background-color: skyblue;
+    
+}
+#second button:hover{
+    background-color: skyblue;
+    color: aliceblue;
+    
+}
+#third button:hover{
+    background-color: skyblue;
+    
+}
+.main h2{
+margin-left: 250px;
+}
+
+@media only screen and (max-width: 600px) {
+    .main h2{
+        margin-left: 50px;
+        }
+}
+
+#first{
+    background-color:lightcyan;
+    border-radius: 10px;
+    
+}
+
+#first button{
+    background-color:cornflowerblue;
+    color: aliceblue;
+    width: 50%;
+    height: 30px;
+    border: none;
+    border-radius: 12px;
+}
+#second{
+    background-color:cornflowerblue;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px black;
+}
+#second button{
+    color: cornflowerblue;
+    width: 50%;
+    height: 30px;
+    border: none;
+    border-radius: 12px;
+}
+#third{
+    background-color:lightcyan;
+    border-radius: 10px
+    
+}
+
+#third button{
+    background-color:cornflowerblue;
+    color: aliceblue;
+    width: 50%;
+    height: 30px;
+    border: none;
+    border-radius: 12px;
+}
+
+    
